@@ -79,7 +79,7 @@ input {
   padding: 10px;
   border-radius: 8px;
   padding-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 207;
 }
 
 @media screen and (max-width: 375px) {
@@ -125,6 +125,6 @@ input {
   }
 
   .input {
-    margin-left: 50px;
+    margin-left: 10px;
   }
 }
