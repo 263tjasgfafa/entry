@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  background-color: #ECEEF8;
+}
+
+.fieldset {
+  width: 598px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding-top: 22px;
+  padding-bottom: 32px;
+  margin-top: 12px;
+  margin-left: 202px;
+  background-color: white;
+  border-top: 10px solid rgb(63, 81, 181);
+}
+
+.fieldset p {
+  font-size: 32px;
+  padding-left: 20px;
+}
+
+.cup {
+  box-sizing: border-box;
+  border: hidden;
+  border-top: 1px solid #dadce0;
+  width: 598px;
+  padding: 20px;
+  color: #5f6368;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 26px;
+  margin-bottom: -24px;
+}
+
+.tea {
+  box-sizing: border-box;
+  width: 598px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 12px;
+  padding-top: 29px;
+  margin-top: 12px;
+  padding-bottom: 29px;
+  margin-left: 202px;
+  background-color: white;
+}
+
+.tea p {
+  font-size: 11pt;
+  line-height: 15pt;
+}
+
+input {
+  border-style: hidden;
+  border-bottom: 1px solid rgb(235, 229, 229);
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 20px;
+  color: #202124;
+}
+
+.input {
+  background-color: #3F51B5;
+  color: white;
+  font-size: 11pt;
+  padding: 10px;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .fieldset {
+    width: 100%;
+    position: center;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .fieldset p {
+    width: 100%;
+    position: left;
+    padding-right: 30px;
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+    position: center;
+    padding-right: 20px;
+  }
+
+  .cup {
+    width: 100%;
+    position: center;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+
+  .tea {
+    width: 100%;
+    position: center;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .tea p {
+    width: 100%;
+    position: left;
+    padding-right: 30px;
+    font-size: 15px;
+  }
+
+  .input {
+    margin-left: 50px;
+  }
+}
